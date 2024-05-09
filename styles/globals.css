@@ -10,3 +10,9 @@ html {
 .custom-img {
   background-image: url('../public/goldcoast.jpg');
 }
+
+
+.container-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+}
