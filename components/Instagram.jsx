@@ -18,29 +18,29 @@ const Instagram = () => {
       <p className='text-2xl font-bold'>Nasi Partnerzy</p>
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
         {/* Użyj komponentu Image do renderowania obrazka */}
-        <a target="_blank" href="https://www.nike.com/pl/">
+        <a target="_blank" rel="noreferrer" href="https://www.nike.com/pl/">
         <Image src={nike} width={300} height={250} />
         </a>
 
 
-        <a target="_blank" href="https://www.adidas.pl/">
+        <a target="_blank" rel="noreferrer" href="https://www.adidas.pl/">
         <Image src={addidas} width={300} height={250} />
         </a>
 
 
-        <a target="_blank" href="https://www.reebok.eu/pl-pl">
+        <a target="_blank" rel="noreferrer" href="https://www.reebok.eu/pl-pl">
         <Image src={rebook} width={300} height={250} />
         </a>
 
 
-        <a target="_blank" href="https://eu.puma.com/pl/pl/home">
+        <a target="_blank" rel="noreferrer" href="https://eu.puma.com/pl/pl/home">
         <Image src={puma} width={300} height={250} />
         </a>
-        <a target="_blank" href="https://www.zara.com/pl/">
+        <a target="_blank"rel="noreferrer" href="https://www.zara.com/pl/">
         <Image src={zara} width={300} height={250} />
         </a>
        
-       <a target="_blank" href="https://www2.hm.com/pl_pl/index.html">
+       <a target="_blank" rel="noreferrer" href="https://www2.hm.com/pl_pl/index.html">
         <Image src={hm} width={300} height={250} />
         </a>
       </div>
