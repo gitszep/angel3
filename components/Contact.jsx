@@ -28,7 +28,7 @@ const Contact = () => {
           field="message"
           errors={state.errors}
         />
-        <button type="submit" className='border shadow-lg p-3 w-full mt-2' disabled={state.submitting}>
+        <button type="submit" className='border shadow-lg text-black p-3 w-full mt-2' disabled={state.submitting}>
           Wyślij
         </button>
       </form>

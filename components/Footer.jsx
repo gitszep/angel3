@@ -24,6 +24,10 @@ const Footer = () => {
           <ul className='lg:flex text-white font-bold'>
             <li className=''>+48 787 567 185</li>
             <li>rabatangel@int.pl</li>
+            <li>oleonaturim sp z o.o.</li>
+
+            <li>5732867480</li>
+
            
           </ul>
           
