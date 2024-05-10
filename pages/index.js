@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import Instagram from '../components/Instagram';
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
-
+import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div>
@@ -16,6 +16,7 @@ export default function Home() {
       <Hero  heading='Rabat Angel' message='Kody rabatowe na tańsze zakupy online.' />
       <Slider slides={SliderData} />
       <Instagram />
+      <Footer/>
     </div>
   );
 }
